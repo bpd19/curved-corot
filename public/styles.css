@@ -1,41 +1,7 @@
-header {
-    background-color: grey;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  
-  header img{
-    align-items: baseline;
-    height: 3em;
-    margin: .5em;
-    border-radius: 50%;
 
-  }
-
-  header a {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-decoration: none;
-    color: white;
-    border-bottom: 3px solid transparent;
-    padding: 0.2em;
-    padding-bottom: 0.3em;
-  }
-
-  header a:hover {
-    border-bottom: 3px solid white;
-    box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-
-
-  header h3{
-    margin-right: 2em;
-  }
+body{
+    margin: 0;
+}
 .container{
     display: flex;
     justify-content: center;
