@@ -1,0 +1,68 @@
+{
+    "adidas": {
+        "id": 1,
+        "url": "./public/images/adidas.jpg"
+    },
+        
+    "adidas_casual": {
+        "id": 2,
+        "url": "./public/images/adidas-casual.jpg"
+    },
+    "barker": {
+        "id": 3,
+        "url": "./public/images/barker.jpg"
+    },
+    "canvas": {
+        "id": 4,
+        "url": "./public/images/canvas.jpg"
+    },
+    "cherry_loafers": {
+        "id": 5,
+        "url": "./public/images/cherry-loafers.jpg"
+    },
+    "elegant": {
+        "id": 6,
+        "url": "./public/images/elegant.jpg"
+    },
+    "joma": {
+        "id": 7,
+        "url": "./public/images/joma.jpg"
+    },
+    "kizik":{
+        "id":8,
+        "url":"./public/images/kizik.jpg"
+    },
+    "malvern": {
+        "id": 9,
+        "url": "./public/images/malvern.jpg"
+    },
+    "nike_air": {
+        "id": 10,
+        "url": "./public/images/nike-air.jpg"
+    },
+    "nike": {
+        "id": 11,
+        "url": "./public/images/nike.jpg"
+    },
+    "leather": {
+        "id": 12,
+        "url": "./public/images/leather.jpg"
+    },
+    "salomon": {
+        "id": 13,
+        "url": "./public/images/salomon.jpg"
+    },
+    "toa_shoe": {
+        "id": 14,
+        "url": "./public/images/tao-shoe.jpg"
+    },
+    "vans": {
+        "id": 15,
+        "url": "./public/images/vans.jpg"
+    },
+    "woodland": {
+        "id": 16,
+        "url": "./public/images/woodland.jpg"
+    }
+
+}
