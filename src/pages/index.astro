@@ -14,26 +14,67 @@ import  Headers  from '../components/Headers.astro';
         body{
             margin: 0;
         }
+        .text{
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .text div h5{
+            margin-right: 18em;
+            font-family: arial;
+            font-size: 18;
+        }
+        p{
+            margin-left: 1em;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+        }
+
+        .image{
+            
+            height: 18em;
+            margin-right: 2em;
+            border-radius: 10%;
+            border: 2px solid lightblue;
+            box-shadow: 1px 2px 0px rgb(51, 51, 51);
+
+        }
     </style>
 </head>
 
 <body>
     <Headers/>
+    <main>
+    <p>This is a page where you can view a few types of shoes</p>
     <div class="container">
         
         <img src="images/adidas.jpg" alt="adidas" class="image">
+        
         <img src="images/nike.jpg" alt="nike" class="image">
+        
+    </div>
+    <div class="text">
+        <div><h5>Adidas</h5></div>
+        <div><h5>Nike</h5></div>
     </div>
     <div class="container">
         <img src="images/vans.jpg" alt="vans" class="image">
-        <img src="images/elegant.jpg" alt="Elegant shoes" class="image">
-    </div>
         
-        <!--img i img -->
-    
-    <div class="contador">
-
+        <img src="images/elegant.jpg" alt="Elegant shoes" class="image">
+        
     </div>
+    <div class="text">
+        <div><h5>Vans</h5></div>
+        <div><h5>Elegant Shoes</h5></div>
+    </div>
+</main>    
+
     
 </body>
 </html>
